@@ -1,0 +1,3 @@
+[submodule "Siphon/vendor/spdlog"]
+	path = Siphon/vendor/spdlog
+	url = https://github.com/gabime/spdlog

@@ -6,6 +6,8 @@ extern Siphon::Application* Siphon::CreateApplication();
 
 int main(int argc, char** argv)
 {
+	Siphon::Log::Init();
+
 	auto app = Siphon::CreateApplication();
 	app->Run();
 	delete app;
